@@ -17,4 +17,4 @@ Copy+paste these values in `tinder.js` for `FACEBOOK_ACCESS_TOKEN` and `FACEBOOK
 
 Step 3: run `node index.js`
 
-## Enjoy your
+## Enjoy your more efficient tinder experience
