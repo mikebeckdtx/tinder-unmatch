@@ -7,7 +7,7 @@ client.authorize(
     client.getHistory(function(error, data){
         var matches = data.matches;
         var matchesWithoutMessages = matches.filter(function(match){
-            return match.last_activity_date < '2017-01-01T00:00:00Z' ||
+            return match.last_activity_date < '2024-01-01T00:00:00Z' ||
                 match.messages.length === 0;
         });
         var idsToUnmatch = matchesWithoutMessages.map(function(match) {
